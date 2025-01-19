@@ -369,6 +369,9 @@ footer {
   .architect-img {
     width: 100%;
   }
+  .feature-section-description{
+    margin-left: 15px;
+  }
 }
 
 /* Tablet */
@@ -416,5 +419,9 @@ footer {
   .brands {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+  }
+
+  .feature-section-description{
+    margin-left: 20px;
   }
 }
