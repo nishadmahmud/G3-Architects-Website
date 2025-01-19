@@ -213,6 +213,32 @@ main {
    margin-bottom: 67px;
 }
 
+/* sponsor section */
+.sponsor-info{
+  max-width: 363px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.brands{
+  max-width: 965px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 50px;
+  margin-bottom: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+}
+
+.brand-img{
+  width: 110px;
+  filter: grayscale(100%);
+}
+
+.brand-img:hover{
+  filter: grayscale(10%);
+}
 
 /* responsive */
 
@@ -228,17 +254,52 @@ main {
   .our-features {
     margin-left: 10px;
   }
+  .fact-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  }
+  .section-title, .section-description{
+    margin-left: 20px;
+  }
+  .brands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sponsor-info{
+    /* margin: 0px; */
+  }
 }
 
 /* Tablet */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .navbar,
+  
   .teams {
     flex-direction: column;
+  }
+
+  .navbar{
+    margin-left: 30px;
   }
   .our-features {
     max-width: 515px;
     /* margin-left: -70px; */
   }
+  .section-title, .section-description{
+    margin-left: 30px;
+  }
+
+  .fact-container{
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .brands{
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+  }
+  
 }
