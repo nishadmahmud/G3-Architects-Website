@@ -346,8 +346,10 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
-  .section-title,
-  .section-description {
+  .section-title {
+    margin-left: 20px;
+  }
+  .fc{
     margin-left: 20px;
   }
   .brands {
