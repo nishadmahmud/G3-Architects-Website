@@ -162,12 +162,12 @@ main {
 }
 
 /* Features Styles */
-.features{
+.features {
   gap: 98px;
   flex: 1;
 }
 
-.architect-img{
+.architect-img {
   width: 474px;
 }
 
@@ -183,7 +183,7 @@ main {
   margin-bottom: 0;
 }
 
-.feature-section-description{
+.feature-section-description {
   font-weight: 400;
   font-size: 0.67rem;
   line-height: 17px;
@@ -191,7 +191,7 @@ main {
   margin-bottom: 20px;
 }
 
-.feature-description{
+.feature-description {
   font-weight: 400;
   font-size: 0.67rem;
   line-height: 17px;
@@ -206,18 +206,18 @@ main {
   border-radius: 5px;
 }
 
-#exp-badge{
+#exp-badge {
   padding: 30px 28px;
   margin-left: -62px;
   margin-top: -82px;
 }
 
-.year{
+.year {
   font-size: 2.72rem;
   font-weight: 700;
 }
 
-.exp{
+.exp {
   font-size: 1rem;
   font-weight: 500;
 }
@@ -301,11 +301,38 @@ main {
   filter: grayscale(10%);
 }
 
+/* Footer */
+footer {
+  max-width: 965px;
+  margin: 0 auto;
+  margin-bottom: 170px;
+}
+
+.footer {
+  background: rgb(255, 244, 231);
+  height: 67px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 26px;
+}
+
+.footer-text {
+  font-size: 0.84rem;
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 /* responsive */
 
 @media screen and (max-width: 576px) {
   .navbar,
-  .teams, .features {
+  .teams,
+  .features {
     flex-direction: column;
   }
 
@@ -329,40 +356,40 @@ main {
     justify-content: center;
     gap: 20px;
   }
-  #exp-badge{
+  #exp-badge {
     padding: 30px 28px;
     margin-left: 90px;
     margin-top: -110px;
   }
 
-  .features{
-    gap: 10px
+  .features {
+    gap: 10px;
   }
 
-  .architect-img{
+  .architect-img {
     width: 100%;
   }
-
 }
 
 /* Tablet */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams, .features {
+  .teams,
+  .features {
     flex-direction: column;
   }
 
-  .architect-img{
+  .architect-img {
     width: 95%;
     margin-left: 25px;
   }
 
-  .features{
+  .features {
     justify-content: center;
     align-items: center;
   }
 
-  #exp-badge{
+  #exp-badge {
     padding: 30px 28px;
     margin-left: 350px;
     margin-top: -110px;
